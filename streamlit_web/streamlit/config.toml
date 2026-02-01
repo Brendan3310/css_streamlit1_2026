@@ -1,15 +1,15 @@
+# .streamlit/config.toml
+[server]
+maxMessageSize = 200
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
+
 [theme]
-# Primary accent color for interactive elements.
-primaryColor = "#d33682"
-
-# Background color for the main content area.
-backgroundColor = "#002b36"
-
-# Background color used for the sidebar and most interactive widgets.
-secondaryBackgroundColor = "#586e75"
-
-# Color used for almost all text.
-textColor = "#fff"
-
-[client]
-toolbarMode = "minimal"
+primaryColor = "#FF4B4B"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
