@@ -35,7 +35,7 @@ st.markdown("""
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
     # Your original image
-    st.image("./assets/github_pic.jpg", width=230)
+   st.image("streamlit_web/assets/github_pic.jpg", width=230)  
 
 with col2:
     st.title("Ramokgopa Kgotso", anchor=False)
@@ -137,4 +137,5 @@ st.markdown("""
         P.S. I usually respond within a day or two
     </p>
 </div>
+
 """, unsafe_allow_html=True)
